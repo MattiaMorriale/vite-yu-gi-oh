@@ -4,8 +4,6 @@
 
     import AppMain from './AppMain.vue';
 
-    import {store} from '../store.js';
-
     export default {
 
         name: 'cardList',
@@ -18,7 +16,6 @@
         },
 
         
-
     }
 
 </script>
