@@ -34,6 +34,10 @@
     flex-direction: column;
     align-items: flex-start;
 
+    border: black solid 1px;
+
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
     img{
         width: 100%;
     }
@@ -48,6 +52,8 @@
         align-items: center;
 
         flex-direction: column;
+
+        border-top: solid black 1px;
 
 
 

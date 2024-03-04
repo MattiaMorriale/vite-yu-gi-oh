@@ -60,6 +60,7 @@
 
     display: flex;
     justify-content: center;
+    
 
     .box-card{
 
@@ -85,6 +86,7 @@
             gap: 25px;
 
             padding: 50px;
+            margin-bottom: 80px;
 
             background-color: white;
 
@@ -99,7 +101,7 @@
 
                 strong{
                     color: white;
-                    
+
                     padding-left: 20px;
 
                     font-size: 25px;
