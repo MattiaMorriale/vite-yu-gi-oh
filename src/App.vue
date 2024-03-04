@@ -25,7 +25,7 @@
 
           console.log(res.data.data)
 
-          this.store.cards = res.data.data
+          this.store.card = res.data.data
 
         }).catch(err => {
 

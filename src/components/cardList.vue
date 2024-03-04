@@ -2,6 +2,8 @@
 
     import AppNav from './AppNav.vue';
 
+    import AppMain from './AppMain.vue';
+
     import {store} from '../store.js';
 
     export default {
@@ -11,21 +13,21 @@
         components: {
 
             AppNav,
+            AppMain,
 
         },
 
-        data() {
-            return {
-                store,
-            }
-        }
+        
 
     }
 
 </script>
 
 <template>
+
     <AppNav></AppNav>
+
+    <AppMain></AppMain>
 
 </template>
 
