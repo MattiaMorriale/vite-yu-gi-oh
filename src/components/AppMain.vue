@@ -59,7 +59,7 @@
                     <div class="square">•</div>
                     
                     <div class="found">
-                        <strong>found {{ store.card.length }} cards {{ store.arch_selected }}</strong>
+                        <strong>Found {{ store.card.length }} {{ store.arch_selected }} Cards</strong>
                     </div>
                     <cardItems v-for="currentCard in store.card" :card="currentCard"></cardItems>
 

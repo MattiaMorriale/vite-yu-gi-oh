@@ -35,7 +35,7 @@
     padding: 0 20px;
 
     .box-img{
-        margin-top: 35px;
+        margin-top: 50px;
 
         height: 250px;
         width: 250px;
@@ -44,9 +44,7 @@
 
         img{
             height: 100%;
-            width: 100%;
-
-            
+            width: 100%;   
         }
     }
 }
