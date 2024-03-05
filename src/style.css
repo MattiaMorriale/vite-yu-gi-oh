@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,8 +12,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body{
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: rgb(34, 34, 34);}
+  25%{background-color:rgb(3, 22, 65);}
+  50%{background-color:rgb(14, 72, 222);}
+  75%{background-color:rgb(3, 22, 65);}
+  100% {background-color: rgb(34, 34, 34);}
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  &:before, &:after {
+    box-sizing: border-box;
+  }
 };
+

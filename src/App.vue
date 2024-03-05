@@ -79,7 +79,7 @@
 
   z-index: 99;
 
-  background-color: #333;
+  background: radial-gradient(#003, #000);
 
 .loader {
   width: fit-content;
@@ -95,6 +95,32 @@
 }
 @keyframes l2 {to{background-size: 100% 3px}}
 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(143, 107, 17);
+
+  border: rgb(255, 183, 0) solid 1px;
+
+  border-radius: 25px;
+
+  height: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 183, 0);
 }
 
 

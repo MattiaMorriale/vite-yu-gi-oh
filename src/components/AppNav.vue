@@ -14,9 +14,6 @@
     <div class="box-img">
         <img src="../../public/yu-gi-oh.png" alt="#">
     </div>
-    <h1>
-        Yu-Gi-Oh Api
-    </h1>
 </div>
 
 </template>
@@ -26,31 +23,31 @@
 .nav{
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
     gap: 20px;
 
-    background-color: white;
+    height: 80px;
+
+    
 
     padding: 0 20px;
 
     .box-img{
-        height: 80px;
-        width: 80px;
+        margin-top: 35px;
+
+        height: 250px;
+        width: 250px;
+
+        
 
         img{
             height: 100%;
             width: 100%;
+
+            
         }
-    }
-
-    h1{
-        color: black;
-
-        font-family: sans-serif;
-        font-weight: lighter;
-
-        font-size: 35px;
     }
 }
 

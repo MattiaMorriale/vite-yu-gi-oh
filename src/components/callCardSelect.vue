@@ -33,14 +33,20 @@
 
 #select{
 
-    background-color: white;
-    color: black;
+    background-color: rgb(3, 22, 65);
+    color: goldenrod;
 
     padding: 8px 12px;
 
     margin: 30px 0 30px 8px;
 
     border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    border: 4px solid goldenrod;
+
+    position: relative;
 
 }
 
