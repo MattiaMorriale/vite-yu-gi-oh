@@ -1,6 +1,10 @@
 <script>
 
+    import axios from 'axios';
+
     import cardItems from './cardItems.vue';
+
+    import callCardSelect from './callCardSelect.vue';
 
     import {store} from '../store.js';
 
@@ -11,6 +15,7 @@
         components: {
 
             cardItems,
+            callCardSelect,
 
         },
 
@@ -20,7 +25,7 @@
                 store,
 
             }
-        }
+        },
 
     }
 
@@ -32,11 +37,7 @@
 
         <div class="box-card">
 
-            <select id="select">
-                <option value="Alien">Alien</option>
-                <option value="Weapon">Weapon</option>
-                <option value="Poison">Poison</option>
-            </select>
+            <callCardSelect></callCardSelect>
 
             <div class="card-container">
                 <div class="found">
@@ -65,17 +66,6 @@
     .box-card{
 
         width: 83%;
-
-        #select{
-            background-color: white;
-            color: black;
-    
-            padding: 8px 12px;
-
-            margin: 30px 0 30px 8px;
-    
-            border-radius: 5px;
-        }
 
         .card-container{
             width: 100%;
