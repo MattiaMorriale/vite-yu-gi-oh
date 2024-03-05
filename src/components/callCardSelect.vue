@@ -20,7 +20,7 @@
 
 <template>
 
-    <select id="select" v-model="store.arch_selected" @click="$emit('search')">
+    <select id="select" v-model="store.arch_selected" @change="$emit('search')">
 
         <option  value="">Scegli il tuo Archetipo</option>
         <option :value="currentArc.archetype_name" v-for="currentArc in store.archetype">{{ currentArc.archetype_name }}</option>

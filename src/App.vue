@@ -21,7 +21,7 @@
     created() {
 
       axios
-        .get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=1000&offset=0')
+        .get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=1000&offset=0' + this.store.arch_selected)
 
         .then(res => {
 

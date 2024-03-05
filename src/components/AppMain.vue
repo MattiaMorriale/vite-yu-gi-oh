@@ -27,6 +27,17 @@
             }
         },
 
+        methods: {
+
+            searcharchetypes () {
+
+            axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=1000&offset=0&archetype=' + this.store.arch_selected)
+                .then(res => {
+
+                this.store.card = res.data.data;
+                });
+            },
+        }
     }
 
 </script>
@@ -37,7 +48,7 @@
 
         <div class="box-card">
 
-            <callCardSelect></callCardSelect>
+            <callCardSelect @search="searcharchetypes()"></callCardSelect>
 
             <div class="card-container">
                 <div class="found">
